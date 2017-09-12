@@ -1,4 +1,4 @@
-(ns graphics)
+(ns code-hoard.graphics)
 
 (defn search-methods [type methodName]
   (def nameRei (java.util.regex.Pattern/compile methodName))
